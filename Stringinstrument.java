@@ -16,7 +16,7 @@ public class Stringinstrument extends Instruments {
         numStrings = 0;
     }
 
-    // constructor parameters
+    
     public Stringinstrument(String name, double price, int numStrings) {
 
         super(name, price);
@@ -24,9 +24,9 @@ public class Stringinstrument extends Instruments {
 
     }
 
-    @Override
+   
     public void print() {
-        super.print(); // untuk manggil method print() di class Product
+        super.print(); 
         System.out.println("numStrings: " + numStrings);
 
     }
