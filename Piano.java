@@ -25,9 +25,9 @@ public class Piano extends Instruments {
         
     }
         
-@Override
+
 public void print() {
-    super.print(); //untuk manggil method print() di class Product
+    super.print(); 
     System.out.println("pianoType: " + pianoType);
    
 }
