@@ -12,11 +12,11 @@ public class Piano extends Instruments {
     }
     public Piano() {
         super();
-        pianoType = "coba";
+        pianoType = "null";
     }
 
 
-     //constructor parameters
+     
      public Piano (String name, double price, String pianoType) {
         
                  
